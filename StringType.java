@@ -1,6 +1,6 @@
 public class StringType {
     public static void main(String[] args) {
-        // String
+        // Section 1 String
         String text = "Abc Defg";
         int length = text.length(); // 8
         String upper = text.toUpperCase(); // ABC DEFG
@@ -9,13 +9,13 @@ public class StringType {
         int index = text.indexOf("De"); // 4 เพราะว่า เริ่มที่เจอที่ตำแหน่งที่ 4
         int index2 = text.indexOf("i"); // -1 เพราะหาไม่เจอ
 
-        // Concatenation
+        // Section 2 Concatenation
         String name = "Nuttaphon";
         String surname = "Popardit";
         String full_name = name + " " + surname; // Nuttaphon Popardit
         String concat = name.concat(surname); // NuttaphonPopardit
 
-        // Number and Strings
+        // Section 3Number and Strings
         String x = "10";
         String y = "20";
         String z = x + y; // 1020 (a String)
@@ -24,7 +24,7 @@ public class StringType {
         int b = 20;
         String c = x + y; // 1020 (a String)
 
-        // Special Characters
+        // Section 4 Special Characters
         String special1 = "Hello World, I\'m from Thailand"; // Hello World, I'm from Thailand
         String special2 = "My name is \"Nuttaphon\""; // My name is "Nuttaphon"
         String special3 = "Good morning \\Everone\\"; // Good morning \Everone\"
